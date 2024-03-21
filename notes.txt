@@ -5,7 +5,7 @@
 "display:block"
 ex:-<span>,<b>,<input>,<select>etc.
 Block level Element:-It Takes parent width as its own width,
-    -It alwes starts with a new line.
+    -It always starts with a new line.
     -we can change block level element by using  css property"display:inlene". 
     Ex:div,p,h1...h6,ul,,ol,li,form tag etc..
 2.   
@@ -18,7 +18,7 @@ Block level Element:-It Takes parent width as its own width,
  Ans:-Semantic element describe its meaning to both browser and developer.
 ex:-<header>,<footer>,<section>,<aside>,<table>,<main><article>etc.
 
-7.Titel tag and Titel atrribute?
+7.Title tag and Title atrribute?
 Ans:- Titel tag define titel of document,which is displayed in titel bar.
       Titel atrribute provide a tooltip,when user hover the cursor over an element the browser a display a text box. 
 
