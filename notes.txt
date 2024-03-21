@@ -1,0 +1,98 @@
+1.what is inline Element & what is block level Element?
+-It takes content width only.
+-its not start with new line.
+-we convert inline elemnt to block level element using css property.
+"display:block"
+ex:-<span>,<b>,<input>,<select>etc.
+Block level Element:-It Takes parent width as its own width,
+    -It alwes starts with a new line.
+    -we can change block level element by using  css property"display:inlene". 
+    Ex:div,p,h1...h6,ul,,ol,li,form tag etc..
+2.   
+
+
+
+
+
+6. What is semantic tag?
+ Ans:-Semantic element describe its meaning to both browser and developer.
+ex:-<header>,<footer>,<section>,<aside>,<table>,<main><article>etc.
+
+7.Titel tag and Titel atrribute?
+Ans:- Titel tag define titel of document,which is displayed in titel bar.
+      Titel atrribute provide a tooltip,when user hover the cursor over an element the browser a display a text box. 
+
+8.Differnce between style tag and style atrribute?
+Ans:- Style tag used for inject css within html document.inside style tag.
+      style atrribute used to apply inline style to indivisual html element.
+
+9.where we can tarck request and response?
+we can trck request and response inside network tab of browser dev tool.
+
+10:How we can add favicon?
+Ans:-Favicon used for displaying the icon on titel in browser.
+by using <link rel="icon" href="favicon.ico" type="imsge/x-icon">
+
+11.How many ways can aply style in css.
+ans:- There are 3 ways to apply style.
+ 1. inline css
+ 2.internal css
+ 3. External css
+12. Tell somthing About box model.
+Ans:- Box-model define structure of element./ layout of element.
+     it has 4 parts.
+     1.margin:The gap between one element border to another element border.
+     2.Padding:Gap between content to border.
+     3.border:Define boundary of content.
+     4.Content:Text which is visible in browser.
+13.How many selectors are in css.
+By using selectors we can get reference of element.so we can apply styles.
+ so many selectors are in css
+ 1.universal selector.(*):It selects all the elements in the html body.
+ 2.id selector.(#)
+ 3.tag selector.
+ 4.name selector.
+ 5.class selector(.)
+ 6.first-child:It selects all the first childrens of all parents.(:first-child)
+ 7.last-child:It selects all the last childrens of all parents.(:last-child)
+ 8.first-of-type:It selects the elements, of first occurance from top to bottom.(:first-of-type)
+ 9.last-of-type:It selects the elements, of first occurance from bottom to top.(:last-of-type)
+ 10.Grater than (>):It selects all direct childrens.
+ 11.space( ):It selects all direct and indirect childrens
+ 12.Plus (+):It selects the first sibling of element.
+ 13.Tilde (~):It selects all siblings of element.
+ 14.:nth-child():It selects the element based on child count.
+ 15.Attribute[]: It selects all the elements with matching attribute.
+14.tell somthing about fixed position.
+ Fixed: 
+ If the element position is fixed, then we can apply top,right, left, bottom CSS properties.
+ Fixed position element take viewport as reference, from there it moves top,right,left,bottom.
+ Fixed position element, always fixed to that position, irrespective of page scroll.
+ Fixed position, removes element space from DOM.
+ Fixed position, changes the behavior of element, like if the element is block level element, then it converts into inline.
+15.Tell the priority order.
+ Ans:!important:- styles marked with !important take the highest priority.
+  inline Styles:- It define directly within html elements using style attribute. It take 2nd highest priority.
+  Internal styles:- It defined within html documents using <style> tag in <head> Section. It takes 3rd priorty.
+  External Styles:-(style.css )It linkd to  html document using <link>tag. it takes lowest priorty in order.
+ 
+
+
+
+
+ 
+
+ 
+ 
+
+ 
+
+ 
+ 
+ 
+
+
+ 
+
+
+
